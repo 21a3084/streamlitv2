@@ -32,13 +32,7 @@ expander1 = st.expander('チェック入れてみて')
 expander1.write(' ') 
 if st.checkbox('check'):
       expander1.write('checkじゃないよ、チェック！！！') 
-expander2 = st.expander('問い合わせ2')
-expander2.write('問い合わせ2の内容を書く')
-expander3 = st.expander('問い合わせ3')
+expander2 = st.expander('チェック')
+expander2.write('はい？なんで俺を押すの？')
+expander3 = st.check('問い合わせ3')
 expander3.write('問い合わせ3の内容を書く')
-condition=st.slider('abaaabaabbbaa',0,100,50)
-'abababa:',text
-'abaaaba',condition
-if st.checkbox('Show Image'):
-  img = Image.open('efg.jpg')
-  st.image(img,caption='watashi',use_column_width=True)
