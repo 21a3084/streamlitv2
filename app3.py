@@ -29,6 +29,7 @@ if button:
     time.sleep(1)
     right_column.write('???')
 expander1 = st.expander('チェック入れてみて')
+expander1.write(' ') 
 if st.checkbox('check'):
       expander1.write('checkじゃないよ、チェック！！！') 
 expander2 = st.expander('問い合わせ2')
