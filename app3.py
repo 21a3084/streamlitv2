@@ -18,7 +18,7 @@ for i in range(50):
   bar.progress(i+1)
   time.sleep(0.1)
   if(i==50):
-    latest_iteration.text(f'Iteration{i+1}')
+    latest_iteration.write(f'Iteration{i+1}')
 'Done!!!!!!!'
 left_column,right_column =st.columns(2)
 button=left_column.button('右カラムに文字を表示')
@@ -32,7 +32,7 @@ expander1 = st.expander('チェック入れてみて')
 expander1.write(' ') 
 if st.checkbox('check'):
       expander1.write('checkじゃないよ、チェック！！！') 
-expander2 = st.expander('チェック')
+expander2 = st.expander('チェックabaac')
 expander2.write('はい？なんで俺を押すの？')
-expander3 = st.check('問い合わせ3')
+expander3 = st.check('チェック')
 expander3.write('問い合わせ3の内容を書く')
