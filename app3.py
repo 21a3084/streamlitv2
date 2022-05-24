@@ -28,10 +28,9 @@ if button:
     right_column.write('何が用？')
     time.sleep(1)
     right_column.write('???')
-expander1 = st.expander('問い合わせ1')
-expander1.write('チェック入れてみて') 
-    if st.checkbox('check'):
-      expander1.write('checkじゃないよ、チェック！！！') 
+expander1 = st.expander('チェック入れてみて')
+if st.checkbox('check'):
+      expander1st.expander('checkじゃないよ、チェック！！！') 
 expander2 = st.expander('問い合わせ2')
 expander2.write('問い合わせ2の内容を書く')
 expander3 = st.expander('問い合わせ3')
