@@ -14,7 +14,7 @@ latest_iteration = st.empty()
 bar = st.progress(0)
 
 for i in range(50):
-  latest_iteration.text(f'Iteration{i+1}'+'   ^_^   まもなく...')
+  latest_iteration.text(   ^_^   まもなく...')
   bar.progress(i+1)
   time.sleep(0.1)
   if(i==50):
@@ -24,9 +24,9 @@ left_column,right_column =st.columns(2)
 button=left_column.button('右カラムに文字を表示')
 if button:
     right_column.write('???')
-    time.sleep(0.1)
+    time.sleep(1)
     right_column.write('何が用？')
-    time.sleep(0.1)
+    time.sleep(1)
     right_column.write('???')
 expander1 = st.expander('問い合わせ1')
 expander1.write('問い合わせ1の内容を書く')
