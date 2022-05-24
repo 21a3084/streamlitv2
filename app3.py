@@ -14,7 +14,7 @@ latest_iteration = st.empty()
 bar = st.progress(0)
 
 for i in range(50):
-  latest_iteration.text(f'Iteration{i+1}'、'まもなく...')
+  latest_iteration.text(f'Iteration{i+1}','まもなく...')
   bar.progress(i+1)
   time.sleep(0.1)
 
