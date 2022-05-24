@@ -23,7 +23,9 @@ for i in range(50):
 left_column,right_column =st.columns(2)
 button=left_column.button('右カラムに文字を表示')
 if button:
-    right_column.write('moji')
+    right_column.write('???')
+    right_column.write('何が用？')
+    right_column.write('???')
 expander1 = st.expander('問い合わせ1')
 expander1.write('問い合わせ1の内容を書く')
 expander2 = st.expander('問い合わせ2')
