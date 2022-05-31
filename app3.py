@@ -48,4 +48,4 @@ if expander1=='スマホ':
    if expander2=='オンラインゲーム':
     st.write('MiHoYo最高！！！')
    if expander2=='オフラインゲーム':
-    st.write('mincraft，Dont Straveとかのゲームがおすすめだよ(オンラインでもできるよ)')
+    st.write('mincraft，Don`t Straveとかのゲームがおすすめだよ(オンラインでもできるよ)')
