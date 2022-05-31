@@ -31,7 +31,7 @@ if button:
     right_column.write('???')
 date_month = st.sidebar.slider('date(month)',1,12)
 date_date = st.sidebar.slider('date(date)',1,31)
-'date:',date_month,date_date
+'date:',date_month,'月'date_date,'日'
 
 expander1 = st.selectbox('どの端末で遊びたいのか？',('','コンピューター','スマホ'))
 st.write(expander1,'で遊びたい') 
