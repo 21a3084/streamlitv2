@@ -35,7 +35,7 @@ condition = st.sidebar.slider('100',0,100,50)
 expander1 = st.expander('チェック入れてみて')
 expander1.write(' ') 
 if st.checkbox('check'):
-      expander1.=st.expander('checkじゃないよ、チェック！！！') 
+      expander1=st.expander('checkじゃないよ、チェック！！！') 
 expander2 = st.expander('チェックabaac')
 expander2.write('はい？なんで俺を押すの？')
 expander3 = st.expander('チェック')
