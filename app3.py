@@ -22,11 +22,11 @@ for i in range(100):
     'Done!!!!!!!'
     
 left_column,right_column =st.columns(2)
-button=left_column.button('右カラムに文字を表示')
+button=left_column.button('ゲーム嫌いな人はここを押してください')
 if button:
     right_column.write('???')
     time.sleep(1)
-    right_column.write('何が用？')
+    right_column.write('じゃなんでこのページを開くの？？？？')
     time.sleep(1)
     right_column.write('???')
 condition = st.sidebar.slider('100',0,100,50)
