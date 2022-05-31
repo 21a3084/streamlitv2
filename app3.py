@@ -33,7 +33,7 @@ condition = st.sidebar.slider('100',0,100,50)
 '100',condition
 
 expander1 = st.selectbox('どの端末で遊びたいのか？',('コンピューター','スマホ'))
-st.write(expender1,'で遊びたい ') 
+st.write(expnder1,'で遊びたい') 
 if st.checkbox('check'):
       
       expander1=st.expander('checkじゃないよ、チェック！！！') 
