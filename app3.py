@@ -40,7 +40,12 @@ if expander1=='コンピューター':
   st.write(expander2,'を選んだ')
   if expander2=='オンラインゲーム':
     st.write('へー、じゃ自分で探してｗ')
-    
-  if expander2=='オフラインゲーム':
+    if expander2=='オフラインゲーム':
     st.write('steam,epicとかこれらのストアがおすすめだよ')
-  
+if expander1=='スマホ':
+   expander2 = st.selectbox('オンラインゲームそれどもオフラインゲーム？',(' ','オンラインゲーム','オフラインゲーム'))
+  st.write(expander2,'を選んだ')
+    if expander2=='オンラインゲーム':
+    st.write('MiHoYo最高！！！')
+    if expander2=='オフラインゲーム':
+    st.write('mincraft，Don‘t Strave’とかのゲームがおすすめだよ(オンラインでもできるよ)')
