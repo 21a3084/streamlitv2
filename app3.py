@@ -7,8 +7,7 @@ import time
 
 st.title("ゲーム推薦！！！")
 
-st.write('自分の好きなゲームを選ぼう！
-！')
+st.write('自分の好きなゲームを選ぼう！！')
 
 
 latest_iteration = st.empty()
