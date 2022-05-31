@@ -29,8 +29,9 @@ if button:
     right_column.write('じゃなんでこのページを開くの？？？？')
     time.sleep(1)
     right_column.write('???')
-condition = st.sidebar.slider('100',0,100,50)
-'100',condition
+date_month = st.sidebar.slider('date(month)',1,12,50)
+date_date = st.sidebar.slider('date(date)',1,31,50)
+'date:',date_month,date_date
 
 expander1 = st.selectbox('どの端末で遊びたいのか？',('','コンピューター','スマホ'))
 st.write(expander1,'で遊びたい') 
