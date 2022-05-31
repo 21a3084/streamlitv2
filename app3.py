@@ -39,7 +39,7 @@ if expander1=='コンピューター':
   st.write(expander1,'を選んだ')
   if expander2=='オンラインゲーム':
     st.write('へー、じゃ自分で探してｗ')
-    break
+    
   if expander2=='オフラインゲーム':
     st.write('steam,epicとかこれらのストアがおすすめだよ')
   
