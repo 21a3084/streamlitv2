@@ -40,6 +40,6 @@ if expander1=='コンピューター':
   if expander2=='オンラインゲーム':
     st.write('へー、じゃ自分で探してｗ')
     break
-  if expander2=='オフラインゲーム'
+  if expander2=='オフラインゲーム':
     st.write('steam,epicとかこれらのストアがおすすめだよ')
   
