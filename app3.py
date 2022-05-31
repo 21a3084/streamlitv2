@@ -13,10 +13,10 @@ st.write('自分の好きなゲームを選ぼう！！')
 latest_iteration = st.empty()
 bar = st.progress(0)
 
-for i in range(50):
+for i in range(100):
   latest_iteration.text(  ' ^_^   まもなく...')
-  bar.progress(i+10)
-  time.sleep(0.1)
+  bar.progress(i+1)
+  time.sleep(0.001)
   if(i==50):
     latest_iteration.write(f'Iteration{i+1}')
     'Done!!!!!!!'
