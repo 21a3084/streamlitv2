@@ -21,7 +21,7 @@ for i in range(50):
     latest_iteration.write(f'Iteration{i+1}')
     'Done!!!!!!!'
  　do_something()
-         st.balloons()
+     st.balloons()
 left_column,right_column =st.columns(2)
 button=left_column.button('右カラムに文字を表示')
 if button:
