@@ -28,6 +28,9 @@ if button:
     right_column.write('何が用？')
     time.sleep(1)
     right_column.write('???')
+condition = st.sidebar.slider('100',0,100,50)
+'100',condition
+
 expander1 = st.expander('チェック入れてみて')
 expander1.write(' ') 
 if st.checkbox('check'):
