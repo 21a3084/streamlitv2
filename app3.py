@@ -32,10 +32,11 @@ if button:
 condition = st.sidebar.slider('100',0,100,50)
 '100',condition
 
-expander1 = st.expander('チェック入れてみて')
-expander1.write(' ') 
+expander1 = st.Selectbox('どの端末で遊びたいのか？',["コンピューター"],["スマホ"])
+st.write(expender1,'で遊びたい ') 
 if st.checkbox('check'):
-      expander1=replace(st.expander('checkじゃないよ、チェック！！！') )
+      
+      expander1=st.expander('checkじゃないよ、チェック！！！') 
 expander2 = st.expander('チェックabaac')
 expander2.write('はい？なんで俺を押すの？')
 expander3 = st.expander('チェック')
