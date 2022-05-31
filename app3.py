@@ -32,7 +32,7 @@ if button:
 condition = st.sidebar.slider('100',0,100,50)
 '100',condition
 
-expander1 = st.selectbox('どの端末で遊びたいのか？',('コンピューター','スマホ'))
+expander1 = st.selectbox('どの端末で遊びたいのか？',('','コンピューター','スマホ'))
 st.write(expander1,'で遊びたい') 
 if expander1=='コンピューター':
   expander2 = st.selectbox('オンラインゲームそれどもオフラインゲーム？',(' ','オンラインゲーム','オフラインゲーム'))
