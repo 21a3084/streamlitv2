@@ -35,11 +35,11 @@ condition = st.sidebar.slider('100',0,100,50)
 expander1 = st.selectbox('どの端末で遊びたいのか？',('コンピューター','スマホ'))
 st.write(expander1,'で遊びたい') 
 if expander1=='コンピューター':
-  expander2 = st.expander('チェックabaac')
-  expander2.write('はい？なんで俺を押すの？')
-  expander3 = st.expander('チェック')
-  expander3.write('問い合わせ3の内容を書く')
-
-if st.checkbox('check'):
-      
-      expander1=st.expander('checkじゃないよ、チェック！！！') 
+  expander2 = st.selectbox('オンラインゲームそれどもオフラインゲーム？',('オンラインゲーム','オフラインゲーム'))
+  st.write(expander1,'を選んだ')
+  if expander2=='オンラインゲーム':
+    st.write('へー、じゃ自分で探してｗ')
+    break
+  if expander2=='オフラインゲーム'
+    st.write('steam,epicとかこれらのストアがおすすめだよ')
+  
